@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Added the font-family property to the body selector as opposed to each individual element */
+body {
+    background-color: #d9dcd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Removed the header div and class and converted it to a header section */
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Removed the header h1 selector because it was unnecessary */
+.seo {
+    color: #d9dcd6;
+}
+
+/* Created a navbar class to more clearly select the links for editing */
+.navbar {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Removed the image link and placed it in the HTML file instead */
+.hero img {
+    height: 900px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.services-sections {
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Selected all h2 and img elements within the .services-sections div */
+.services-sections h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.services-sections img {
+    max-height: 200px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    background-color: #2589bd;
+}
+
+/* Selected all h3 and img elements within the .benefits div */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    max-height: 200px;
+}
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Removed the footer class and created the footer section */
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
